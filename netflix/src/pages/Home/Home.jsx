@@ -5,6 +5,7 @@ import hero_banner from "../../assets/hero_banner.jpg";
 import hero_title from "../../assets/hero_title.png";
 import play from "../../assets/play_icon.png";
 import info from "../../assets/info_icon.png";
+import Titlecards from "../../components/TitleCards/Titlecards";
 const Home = () => {
   return (
     <div className="home">
@@ -28,6 +29,7 @@ const Home = () => {
               More Info
             </button>
           </div>
+          <Titlecards />
         </div>
       </div>
     </div>
